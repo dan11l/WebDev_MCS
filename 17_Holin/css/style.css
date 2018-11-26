@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif:400,400i,700,700i&subset=cyrillic');
+.header	{
+height: 75px;
+background-image: linear-gradient(to bottom, rgb(130,175,222), rgb(247,247,242));
+}
+.heading {
+	font-family: 'PT Serif', serif;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 75px;
+	color: rgb(50,50,50);
+	letter-spacing: 22px;
+	text-align: center;
+	text-transform: lowercase; 
+
+}
+
+.body {
+	font-family: 'PT Serif', serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+	color: rgb(50,50,50);
+	text-align: left;
+}
+ 
+.links	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: rgb(50,50,50);
+}
+a {
+	text-decoration: none;
+	color: rgb(50,50,50);
+
+}
+.grad1	{
+	height: 40px;
+	background-image: linear-gradient(to right, white 30%, rgb(210,60,80) 50%, white);
+}
+.grad2	{
+	height: 40px;
+	background-image: linear-gradient(to right, rgb(210,60,80), white, rgb(210,60,80));
+}
+.grad3	{
+	height: 40px;
+	background-image: linear-gradient(to right, white 10%, rgb(210,60,80) 30%, white);
+}
+.grad4	{
+	height: 40px;
+	background-image: linear-gradient(to right, rgb(85,130,190), rgb(202,221,226), rgb(45,43,46));
+}
+.grad5	{
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgb(205,233,208), rgb(149,201,175), rgb(120,174,156), rgb(100,154,163), rgb(109,155,179) 20%);
+}
+.malevich	{
+	height: 400px;
+	background-image: url(../img/malevich.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+
+}
+
+.footer	{
+	height: 75px;
+background-image: linear-gradient(to bottom, rgb(30,30,30), rgb(100,100,100));
+font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 75px;
+		color: rgb(200,200,200);
+}

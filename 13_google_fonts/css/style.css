@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.heading h1 {
+	font-size: 100px;
+	font-weight: normal;
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+.paragraph p {
+	font-family: 'Noto Serif', serif;
+}
+
+.paragraph2 p {font-family: 'Lobster', cursive;
+
+}

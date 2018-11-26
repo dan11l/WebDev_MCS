@@ -1,0 +1,23 @@
+@font-face {
+	src: url(../font/AlegreyaSC-Regular.ttf);
+	font-family: 'Alegreya';
+	font-weight: normal;
+}	
+
+
+.heading h1 {
+	font-size: 100px;
+	font-weight: normal;
+	font-family: 'Alegreya';
+}
+
+.paragraph p {
+		font-family: 'Alegreya';
+
+}
+
+.paragraph2 p {
+		font-family: 'Alegreya';
+	font-size: 5px;
+
+}

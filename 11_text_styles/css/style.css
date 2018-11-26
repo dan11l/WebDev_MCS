@@ -1,0 +1,11 @@
+.heading h1 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline red;
+	text-shadow: 5px 5px 10px green;
+}
+
+.paragraph p {
+	line-height: 200%;
+	letter-spacing: 10px;
+}
