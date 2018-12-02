@@ -27,7 +27,8 @@
 	text-align: center;
 	padding: 30px 30px;
 	box-sizing: border-box;
-	background-color: rgba(0, 255, 255, .5);
+	background-image: linear-gradient(to bottom, navy, rgba(0, 255, 255, .5));
+	/*background-color: rgba(0, 255, 255, .5);*/
 	line-height: 140px;
 }
 
