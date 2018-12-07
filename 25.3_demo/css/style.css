@@ -1,0 +1,61 @@
+@import url(reset.css);
+@font-face {
+	src: url(../font/InputMono-Regular.ttf);
+	font-family: 'Input';
+	font-weight: normal;
+}	
+
+.page {
+	background-color: red;
+	font-family: 'Input';
+	font-weight: normal;
+}
+
+.header {
+	height: 100px;
+	background-color: yellow;
+}
+
+
+/*АКРОБАТЫ*/
+.acrobats {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	margin: 0px 300px;
+	padding: 20px 0px;
+
+}
+.items {
+		display: flex;
+		justify-content: center;
+		flex-wrap: nowrap;
+		align-items: center;
+		/*background-color: blue;*/
+}
+.item {
+	height: 120px;
+	width: 120px;
+	margin: 10px 0px;
+	background-image: url(../img/hymnast.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item div {
+	font-size: 76px;
+	text-align: center;
+	position: relative;
+	bottom: 8%;
+	right: 1px;
+	color: yellow;
+	/*background-color: powderblue;
+	width: 25%;
+	margin: 0 0 18px 0;
+	text-align: center;*/
+}
