@@ -1,0 +1,21 @@
+@keyframes opasity {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.yo {
+	font-size: 30px;
+	color: red;
+	position: relative;
+	animation-name: opasity;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+		/*animation: opasity 2s linear infinite alternate;*/
+}

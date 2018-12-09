@@ -1,0 +1,90 @@
+@import url(reset.css);
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.container {
+	margin: 30px;
+
+}
+
+.header {
+	width: 100%;
+	margin: auto;
+	min-height: 60px;
+	height: 10vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: navy;
+} 
+
+.header h1 {
+	color: white;
+	padding-left: 30px;
+	font-size: 2em;
+
+}
+
+.columns {
+	width: 100%;
+	margin: auto;
+	min-height: 500px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid lightgrey;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 0px 5px grey;
+
+
+}
+
+.column h2 {
+		padding: 25px 16px 0;
+		font-style: bold;
+		font-size: 1.2em;
+
+}
+
+.column p {
+		padding: 25px 16px;
+
+}
+
+.portrait {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.portrait.one {
+	background-image: url(../img/one.png);
+}
+.portrait.two {
+	background-image: url(../img/two.png);
+}
+.portrait.three {
+	background-image: url(../img/three.png);
+}
+
+.footer {
+	width: 100%;
+	margin: auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+} 
+
+.footer p {
+	color: white;
+	padding-left: 30px;
+	font-size: .8em;
+
+}
