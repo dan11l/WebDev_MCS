@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+.container {
+	margin: 10px 15px;
+}
+
+.header {
+	width: 100%;
+	margin: auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:  lightblue;
+} 
+
+.header h1 {
+	color: black;
+	padding-left: 30px;
+	font-size: 2em;
+
+}
+
+
+.columns {
+	width: 100%;
+	margin: auto;
+	min-height: 100px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.column {
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightgreen;
+}
+
+.column h1 {
+	padding: 8px;
+	font-size: 1.5em;
+}
+
+.column p {
+	padding: 8px;
+	color: black;
+}
+
+.footer {
+	width: 100%;
+	margin: auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: lightblue;
+} 
+
+.footer p {
+	color: black;
+	padding-left: 30px;
+	font-size: .8em;
+}
+
+
+@media screen and (min-width: 960px) {
+
+.container {
+	margin: 20px 30px;
+
+}
+
+.columns {
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 15px)/2);
+
+}
+}
