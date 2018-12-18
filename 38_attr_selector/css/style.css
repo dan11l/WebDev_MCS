@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg/1200px-Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg"] {
+	width: 300px;
+}
+
+img[alt="leto"] {
+	width: 600px;
+}

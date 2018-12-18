@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>boilerhat</title>
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+	<div class="zag">сообщить о невыявленном памятнике архитектуры</div>
+	<form method="POST" action="http://free.allforms.mailjol.net/u/b26fc68d.php">
+		<fieldset class="adress">
+			<label for="adress">укажите адрес постройки</label>
+			<input type="adress" name="adress">	
+			<label for="quality">оцените состояние здания</label>
+			<input type="radio" name="quality" value="1"><span>очень плохое</span>
+			<input type="radio" name="quality" value="2"><span>плохое</span>
+			<input type="radio" name="quality" value="4"><span>хорошее</span>
+			<input type="radio" name="quality" value="5"><span>отличное</span>
+		</fieldset>
+		<fieldset class="identity">		
+			<label for="stil">вы можете определить стиль постройки</label>
+			<input type="text" name="stil" placeholder="конструктивизм">
+			<label for="data">вы можете определить время постройки</label>
+			<input type="date" name="data">
+			<label for="imya">вы знаете архитектора</label>
+			<input type="text" name="imya" placeholder="Леонидов И.Б.">	
+		</fieldset>
+		<fieldset class="contact">
+			<label for="name">как вас зовут</label>
+			<input type="text" name="name" placeholder="иван иванов">
+			<label for="email">как с вами связаться</label>
+			<input type="email" name="email" placeholder="email@email.com">
+			<label for="mess">комментарий</label>
+			<textarea name="mess">если вы хотите еще что-то сообщить, напишите это здесь</textarea>
+			<label for="submit"></label>
+			<input type="submit" value="отправить данные" name="submit">
+		</fieldset>
+	</form>
+	</div>
+</div>
+
+
+
+</body>
+</html>
